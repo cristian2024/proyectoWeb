@@ -1,0 +1,24 @@
+#body{
+    padding: 20px 20px;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+}
+
+#navegador ul{
+    list-style-type:none ;
+    display: inline;
+    padding-left: 3px;
+    padding-right: 3px ;
+}
+
+#navegador li{
+    display: inline;
+}
+
+
+
+
+
