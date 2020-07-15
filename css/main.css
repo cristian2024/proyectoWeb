@@ -1,5 +1,8 @@
 #body{
     padding: 20px 20px;
+    opacity: 0.2;
+    background: #142850;
+    opacity: 1;
 }
 
 #logo{
@@ -8,27 +11,42 @@
 }
 
 #navegador{
-    background: #a6dcef;
+    background: #0c7b93;
     padding:10px;
-    width: 80%;
+    width: 100%;
     height: 20%;
     
 
 }
 
 .nav{
+    float: right;
     margin: 5px;
 }
 
 header{
     display: flex;
     align-items: flex-end;
-    
+    margin-bottom: 0px;
     
 }
 
 header h1{
     width: max-content  ;
+}
+
+#section{
+    align-self: baseline;
+    background: #27496d;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    width: 50%;
+    height: 100%;
+}
+.parrafo{
+    color:#00a8cc;
+    
+    
 }
 
 
