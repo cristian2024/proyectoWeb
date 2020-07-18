@@ -11,18 +11,22 @@
 }
 
 #navegador{
-
+    display: flex;
+    justify-content: flex-end;
     padding:7px;
     width: 100%;
     height: 20%;
     background: #fbd46d;
-
+    
 }
 
 .nav{
     
-    float: right;
+    /* float: right; */
     display: inline-block;
+
+
+    
     margin: 5px;
     color:rgba(251, 212, 109,0.7) ;
     text-decoration: none;
@@ -66,9 +70,31 @@ header h1{
 }
 .parrafo{
     color:#00a8cc;
-    
-    
+}
+#nav_menu{
+    width: 50px;
+    height: 50px;
+}
+#nav_button{
+    margin: 5px;
+    display: none;
+    width: max-content;
 }
 
-
-
+@media (max-width: 624px) {
+    header{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #navegador{
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    #nav_button{
+        display: inline-block;
+        background: #654062;
+        
+    }
+    
+}
