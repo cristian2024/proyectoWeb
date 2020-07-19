@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/main.css">
+    <!-- <script src="../javaScript/main.js" type="text/javascript"></script> -->
 </head>
 <body id="body">
 
@@ -15,17 +16,17 @@
         </h1>
         <!-- aqui colocaremos los hipervinculos a otras zonas de la pagina -->
         <nav id="navegador" >
-            <button id="nav_button">
+            <button id="nav_button" onclick="accion()">
                 <img src="../imagenes/threebars_106419.png" alt="menu" id="nav_menu">
             </button>
-            <a href="#" class="nav">adios</a>
-            <a href="#" class="nav">hola</a>
-            <a href="#" class="nav">adios</a>
-            <a href="#" class="nav">hola</a>
-            <a href="#" class="nav">adios</a>
-            <a href="#" class="nav">hola</a>
-            <a href="#" class="nav">adios</a>
-            <a href="#" class="nav">hola</a>
+            <a href="#" class="nav prueba">adios</a>
+            <a href="#" class="nav prueba">hola</a>
+            <a href="#" class="nav prueba">juperto</a>
+            <a href="#" class="nav prueba">constantine</a>
+            <a href="#" class="nav prueba">otros</a>
+            <a href="#" class="nav prueba">que tal la vida</a>
+            <a href="#" class="nav prueba">chau</a>
+            <a href="#" class="nav prueba">nop</a>
         </nav>
     </header>
     
@@ -34,5 +35,15 @@
     <section id="section" >
         <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos repudiandae amet modi dolore pariatur veniam, accusantium exercitationem perferendis voluptate rerum. Autem voluptates optio recusandae libero fuga maiores expedita voluptatem nisi!</p>
     </section>
+        
+    <script>
+        function accion(){
+            var enlace = document.getElementsByClassName('nav');
+            for (var index = 0; index < enlace.length; index++) {
+                enlace[index].classList.toggle('prueba');
+                
+            }
+        }
+    </script>
 </body>
 </html>
